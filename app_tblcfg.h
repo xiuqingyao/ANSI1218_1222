@@ -1,0 +1,24 @@
+#ifndef APP_TBLCFG_H
+#define APP_TBLCFG_H
+
+#include "ansi_c1219.h"
+
+/********************************************************************************
+                    self-defined table for application module
+*********************************************************************************/
+#if 0
+const STRU_INDEX_TABLE APP_TABLE[] =
+{
+    /*table_index, table_address, table_items, table_size, table_access_right*/
+    {ST00,	(STRU_COMTABL*)STRU_ST00,	ST00_ITEM,	ST00_SIZE,	(TB_OPMOD_30 + TB_OPMOD_3F + TB_OPMOD_READ_ACCESS)},
+    {ST01,	(STRU_COMTABL*)STRU_ST01,	ST01_ITEM,	ST01_SIZE,	(TB_OPMOD_30 + TB_OPMOD_3F + TB_OPMOD_READ_ACCESS)},
+    {ST02,	(STRU_COMTABL*)STRU_ST02,	ST02_ITEM,	ST02_SIZE,	(TB_OPMOD_30 + TB_OPMOD_3F + TB_OPMOD_READ_ACCESS)},
+    {ST03,	(STRU_COMTABL*)STRU_ST03,	ST03_ITEM,	ST03_SIZE,	(TB_OPMOD_30 + TB_OPMOD_3F + TB_OPMOD_READ_ACCESS)},
+    {ST05,	(STRU_COMTABL*)STRU_ST05,	ST05_ITEM,	ST05_SIZE,	(TB_OPMOD_30 + TB_OPMOD_3F + TB_OPMOD_40 + TB_OPMOD_4F + TB_OPMOD_READ_ACCESS)},
+    {ST06,	(STRU_COMTABL*)STRU_ST06,	ST06_ITEM,	ST06_SIZE,	(TB_OPMOD_30 + TB_OPMOD_3F + TB_OPMOD_40 + TB_OPMOD_4F + TB_OPMOD_READ_ACCESS)},
+    {ST10,	(STRU_COMTABL*)STRU_ST10,	ST10_ITEM,	ST10_SIZE,	(TB_OPMOD_30 + TB_OPMOD_3F + TB_OPMOD_READ_ACCESS)},
+    {ST11,	(STRU_COMTABL*)STRU_ST11,	ST11_ITEM,	ST11_SIZE,	(TB_OPMOD_30 + TB_OPMOD_3F + TB_OPMOD_40 + TB_OPMOD_4F + TB_OPMOD_READ_ACCESS)},
+    {ST12,	(STRU_COMTABL*)STRU_ST12,	ST12_ITEM,	ST12_SIZE,	(TB_OPMOD_30 + TB_OPMOD_3F + TB_OPMOD_READ_ACCESS)},
+};
+#endif
+#endif // APP_TBLCFG_H

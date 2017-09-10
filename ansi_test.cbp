@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="ansi_test" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/ansi_test" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/ansi_test" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="aes.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="aes.h" />
+		<Unit filename="ansi_c1218.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ansi_c1218.h" />
+		<Unit filename="ansi_c1219.h" />
+		<Unit filename="ansi_c1222.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ansi_c1222.h" />
+		<Unit filename="ansi_def.h" />
+		<Unit filename="ansi_note.txt" />
+		<Unit filename="ansi_tbldef.h" />
+		<Unit filename="ansi_tblmgr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ansi_tblmgr.h" />
+		<Unit filename="app_tblcfg.h" />
+		<Unit filename="crc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="crc.h" />
+		<Unit filename="eax.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="eax.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="readme.txt" />
+		<Unit filename="table00.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="table00.h" />
+		<Unit filename="table01.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="table01.h" />
+		<Unit filename="table02.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="table02.h" />
+		<Unit filename="table03.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="table03.h" />
+		<Unit filename="table05.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="table05.h" />
+		<Unit filename="table06.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="table06.h" />
+		<Unit filename="table07.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="table07.h" />
+		<Unit filename="table08.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="table08.h" />
+		<Unit filename="table10.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="table10.h" />
+		<Unit filename="table11.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="table11.h" />
+		<Unit filename="table12.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="table12.h" />
+		<Unit filename="typedef.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
